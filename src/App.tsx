@@ -7,6 +7,7 @@ import VirtualTour from './pages/VirtualTour';
 import Education from './pages/Education';
 import Membership from './pages/Membership';
 import Events from './pages/Events';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/membership" element={<Membership />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

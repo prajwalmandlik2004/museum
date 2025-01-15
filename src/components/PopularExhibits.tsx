@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ExhibitCard from './ExhibitCard';
 
 const PopularExhibits = () => {
