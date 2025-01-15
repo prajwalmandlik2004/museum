@@ -18,13 +18,13 @@ const Contact = () => {
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-[#C2AD8A]" />
                   <a href="mailto:info@pastport.com" className="text-gray-600 hover:text-[#C2AD8A]">
-                    info@pastport.com
+                    jaltaresr@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-[#C2AD8A]" />
                   <a href="mailto:support@pastport.com" className="text-gray-600 hover:text-[#C2AD8A]">
-                    support@pastport.com
+                    anishkapanna1511@gmail.com
                   </a>
                 </div>
               </div>
@@ -33,19 +33,19 @@ const Contact = () => {
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-[#C2AD8A]" />
                   <a href="tel:+1-202-555-0123" className="text-gray-600 hover:text-[#C2AD8A]">
-                    +1 (202) 555-0123
+                    +91 9860431475
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-[#C2AD8A]" />
                   <a href="tel:+1-202-555-0124" className="text-gray-600 hover:text-[#C2AD8A]">
-                    +1 (202) 555-0124
+                    +91 9970965146
                   </a>
                 </div>
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-[#C2AD8A]" />
                   <span className="text-gray-600">
                     Mon - Fri: 9:00 AM - 6:00 PM EST
@@ -56,7 +56,7 @@ const Contact = () => {
                   <span className="text-gray-600">
                     1234 Art Avenue, New York, NY 10001
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
