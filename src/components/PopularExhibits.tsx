@@ -11,7 +11,7 @@ const PopularExhibits = () => {
       viewers: "2.5k watching"
     },
     {
-      image: "https://images.unsplash.com/photo-1565060169194-19fabf37c0ce",
+      image: "https://images.unsplash.com/photo-1574182245530-967d9b3831af",
       title: "Renaissance Masterpieces",
       museum: "Uffizi Gallery",
       duration: "60 min",

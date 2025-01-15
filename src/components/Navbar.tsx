@@ -11,6 +11,8 @@ const Navbar = () => {
   };
 
   const navLinks = [
+    { path: "/", label: "Home" },
+    { path: "/museum-categories", label: "Museum Categories" },
     { path: "/virtual-tour", label: "Virtual Tour" },
     { path: "/education", label: "Education" },
     { path: "/membership", label: "Membership" },

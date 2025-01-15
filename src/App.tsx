@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import MuseumCategories from './components/MuseumCategories';
 import Home from './pages/Home';
 import VirtualTour from './pages/VirtualTour';
 import Education from './pages/Education';
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/museum-categories" element={<MuseumCategories />} />
           <Route path="/virtual-tour" element={<VirtualTour />} />
           <Route path="/education" element={<Education />} />
           <Route path="/membership" element={<Membership />} />
